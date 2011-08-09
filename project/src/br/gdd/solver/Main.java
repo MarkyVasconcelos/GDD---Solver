@@ -18,20 +18,26 @@ public class Main {
 
 		System.out.println(solver1.countPrepositions()); // Should be 60
 		System.out.println(solver2.countPrepositions());
+		System.out.println("-------------------");
 
 		System.out.println(solver1.countVerbs()); // Should be 21
 		System.out.println(solver2.countVerbs());
+		System.out.println("-------------------");
 
 		System.out.println(solver1.countSingVerbs()); // Should be 16
 		System.out.println(solver2.countSingVerbs());
+		System.out.println("-------------------");
 
 		String voc1 = solver1.getVocabularyListAsString().trim();
 		System.out.println(voc1); 
 		System.out.println(voc1.equals("cfnr chspf cstvjdcv cvhplsr cvnggr cvzlm cvlhqkv cqtbcmdl cqkzhf cqm czqlm czddf cwhqbssb cwr ckfg ckppxbt cklqk cmhrvkms cmm cxcqsj cxr cljgtbtc clbl clppz ffpzhrg fjc fjrch fhq fhksw fgcbtn fnq fnbjnrqd fnkj fsnzm fsxxp fvfwqnqm fvqg fqkch fqrcp fbmpsj fwdt fwlb ftjg ftxk fmxhqvms fdcb fdb fdtjxjfd fpwrh fxh fxghsmjz fxttpllc flhvqqb flwm fltgwmwv flkc jccdjff jcn jct jhc jhfqkmj jhj jhsdnhqn jhlh jgh jnqvnkpq jsc jsk jvktgfj jvlw jqtzrs jzf jzb jzpdh jwjpwkc jth jtth jtl jrrfcrl jmshdq jdcxgvv jdkbbrsq jxcp jxfcjjh hcq hcxnzhd hfkvtt hjzmhsgc hjwwqhhl hjtzh hhnmk hhkrm hnzl hntvmjc hvclnh hvltz hqzw hqk hzfk hzq hzbmrp hzxvck hzxqjggj httfmbl htrh hkwvfc hrzkqc hmnvfxtj hxcnk hxmsfxcj hxdnwqhh hlcqvv hlvfjfgr hlm hlpxxv gcdffrw gfcjfbh gffqqxm gffp gfshj gjvxr gjb ghr gnwb gsfftq gqhhthc gqrb gqmnrft gzv gzmsb gbfvsh gbjx gbnd gwsvfkf gttsj gkvnps gkxq grnwtfn grwjnnp grmxcc gmbwvz gmtqmt gdbr gdkvhgl gpchz gpnvgsqf gpqnbmj gpptzkr gxtr gxpbvp gxl glxsgjj ncxbnz nfshwmsk njrc njdxwplf nhqgwm nnbrgg nnbdzn nnktdc nsjt nskh nvslmb nvlsbf nqt nqlts nzfq nzqq nzmj nzlg ntjt ntw ntwsjxbt nkjc nkkqqq nrsc nrsnxgz npn npq npqdtp npbkg nxbdnvw nlfwbj nltvhxqb scc scfm schdgwss scv sckq sfvgz sfbmvqnh sfrh sjk shks shdrj shl sgg sgnzw sgw sgtwp snj snsxmnvn snw ssjltw svbt svmspdm svdz sqg swhhbqj stgx stqp stpxw skqpkhr srq srwsjvn srkvjbw smg spsbphvq slsgp slrsbvt sldqz vcppxd vjsktkq vjmqjsvl vhqxhpm vhb vgrbpc vvhn vvzrcnxf vqgk vqm vqpk vztxb vbwll vbpm vwptrfq vkhc vrcqkvbj vrskh vrkrxnt vrkxdp vmcfpp vmrsbbqd vptscvlg vpdswj vxdzxjmz vlnxr qcchvv qctjzm qcrht qcrv qcxhdm qcxlpqd qfnttgt qfmnjql qfdtxdt qhgn qhzjjpvh qhbbbt qgrths qnhvpth qnqxkgz qsjfnt qsmwbqfc qvdnhtw qqsmgv qqvdmgnn qqpcqszf qzfprhm qzmj qzmlmk qzlrp qbntr qbqk qtnqkck qtxwfgq qkhpmkjl qkmgx qkxkcnv qrlwhvt qmfpmv qmh zchww zclb zfcvbbf zhcfkll zhwfxwkz znz zsg zsqqgn zsbtmggv zqntvvh zzj zwncmdbt ztfwswpp ztmjfw ztmq zkgz zkbqnpfd zrqp zrqlf zrlsxb zlg bcgqdqxc bcsndch bfqsc bfxl bjcgcgf bjrmfnc bhghh bhk bhdxmj bhlvrxf bgdzr bnfbdxdw bngnr bvscvjnx bvq bwgl bwwnqt btgkx btqw btxwccck brgxcdgk bmc bmtmsz bmrzjm bmrr bxlxxtgz blwtkqmg wcflscd wcvp wcrjrvp wcrqpc wjsz wjkxsr whwtp wgf wgfvczj wgj wggpgdwd wgtspmzz wgrjt wgrvbq wnbbn wnxrdxv wsmrr wvk wqhp wqwj wzfs wbbvgh wbmt wwzshjr wwdh wtvbnkd wtwhmz wttsshjv wtdwk wmcc wmjmh wmbmkht wmkrqhrc wprt wpd wxv wxzpvmnd tfzfb tjxb thmxw tgzkp tnz tnb tvbxqhkb tqstjw tqk tzbllnp twglp twnvsgg twv twmhq ttfkn tthj tkjjst tkvjl tkbp tkdwsdnp trjpqccn trqxq tmzhjmxw tph tpgdfdmv txfxhsk txm kccfxj kcsmcgtn kcmtcwkn kcplmcl kcxfpc kfcwwclh kfqwx kjjmtzzq kjbqhkwx kjtpf kjlwqjjn khdct kgc kngf ksmr ksdrhwq kvk kvmtvm kvxmnj kqm kbj kbqkv ktxsq kkf kkvxsf kdk kpjlvcq kppq kxsmlkvl kxmzv kxxmkrbj klfg klp rcjhn rckd rcm rclvvrr rfdtsrvp rjxmc rghtnrn rgpkqlbr rng rngkbj rnrwx rnlgfsvm rvlbcmmx rwhgxdvv rtvqndvd rrjc rrjglv rrhht rrrjgkcp rrdb rmc rmgpqvz rdn rddnstt rplmbgf rlcck mcvchfqr mckgj mhnzr mnkjwhp msg mssrxwz mvtzdngr mvmd mqvdg mqxxph mbfkc mbbpc mbktxn mbdbpb mwqsrsl mwbt mtcq mtsdqcgn mtr mrcr mrjlknrl mrhlsx mrptp mdtvjt mdkbpw mdpxhfnz mpngg mls mlbx dcjft djvrhl dhwnl dgfr dgggzp dgqhk dgbzsxmj dnsv dnd dnxjr dsprhg dvmc dvxzfr dqkpht dzhdtk dbjl dbtmwkt dtqgl drh drvxgxt drbmxn drbxxs dmjmw dmwrcvrx ddcqpddq dxwqbbh dltf pcmrfkmn pfcs pfd pflzlgr pjgvwl phjxtg phw pgjkrpz pgsjnrtp pgrf pnhpc psfwxtd psszk pvfwcwl pvvtdx pvt pqdkknx pbhtw ptrt pkj pkgs pkvqd pkwv prcrgbcx prg prn prwspz pmfvpkxp ppcpjhf ppqhf ppp pxmvc pxlrbpg plnchdxg plmxstm plp xcczpwhg xcqj xcl xclldw xfb xfmppn xjrgbbql xjmstx xhj xhkfp xhx xhllxvr xggzdj xnhlwc xvcpwkk xvl xqslbfcn xtcnjr xtfpxt xtvq xrbvh xmxpt xdjfbp xdgtglr xdnfbg xphwc xpg xxh xxn xxtdtfx xlc lcghq lcx lfhfcsk lfhshjl lfvck lfqtllg ljghkd lhtqj lgwlkbjf lgpnxs lgxwlgll lntbhzb lszkrn lbjwg lbbv lbdswv lblspt lwddlpvn lkfkvvz lknkjpm lmz lmdzgknz lxk lxmktglq"));
 		
 		System.out.println(solver2.getVocabularyListAsString().trim());
+		System.out.println("-------------------");
 		
-		System.out.println(solver1.getBeautifullDistinctNumbersCount()); 
+		System.out.println(solver1.getBeautifullDistinctNumbersCount());
+		System.out.println(solver2.getBeautifullDistinctNumbersCount());
+		System.out.println("-------------------");
 	}
 
 }

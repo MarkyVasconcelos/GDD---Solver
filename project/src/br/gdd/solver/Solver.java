@@ -163,15 +163,14 @@ public class Solver {
 		
 		for(int i = 0; i < s.length; i++){
 			long x = lexicalOrder.indexOf(s[i]);
-			number += x * i * 20;
+			number += x * Math.pow(20, i);
 		}
-			
 		
 		return number;
 	}
 
 	private boolean isBeautifull(long number) {
-		return number >= 538741 && number % 3 == 0;
+		return number >= 538741l && number % 3l == 0;
 	}
 
 }
