@@ -1,12 +1,10 @@
 package br.gdd.solver;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class Solver {
 	private char[] fooLetters;
@@ -84,16 +82,16 @@ public class Solver {
 	}
 
 	public String getVocabularyListAsString() {
-		List<String> list = getVocabularyList();
+		Set<String> list = getVocabularyList();
 		StringBuilder builder = new StringBuilder();
 		for (String s : list)
 			builder.append(s).append(" ");
 		return builder.toString();
 	}
 
-	public List<String> getVocabularyList() {
-		List<String> list = removeRepeated(text.split(" "));
-		Collections.sort(list, new Comparator<String>() {
+	
+	public Set<String> getVocabularyList() {
+		Set<String> set = new TreeSet<String>(new Comparator<String>() {
 			@Override
 			public int compare(String o1, String o2) {
 				int len1 = o1.length();
@@ -128,22 +126,9 @@ public class Solver {
 				return len1 - len2;
 			}
 		});
+		set.addAll(Arrays.asList(text.split(" ")));
 
-		return list;
-	}
-
-	private List<String> removeRepeated(String[] list) {
-		Set<String> set = new HashSet<String>();
-
-		for (String word : list)
-			set.add(word);
-
-		List<String> result = new ArrayList<String>();
-
-		for (String word : set)
-			result.add(word);
-
-		return result;
+		return set;
 	}
 
 	public int getBeautifullDistinctNumbersCount() {
@@ -160,12 +145,12 @@ public class Solver {
 
 	private long toGooglonNumber(char[] s) {
 		long number = 0;
-		
-		for(int i = 0; i < s.length; i++){
+
+		for (int i = 0; i < s.length; i++) {
 			long x = lexicalOrder.indexOf(s[i]);
 			number += x * Math.pow(20, i);
 		}
-		
+
 		return number;
 	}
 
